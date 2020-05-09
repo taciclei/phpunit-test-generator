@@ -104,7 +104,7 @@ class TestClassMetadataParser
                     continue;
                 }
                 
-                $useStatements[] = $returnType;
+                $useStatements[] = $returnType->getName();
             }
         }
 
